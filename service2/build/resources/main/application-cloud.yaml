@@ -1,0 +1,2 @@
+spring.rabbitmq.addresses: ${vcap.services.docssleuth-rabbitmq.credentials.uri}
+sleuth.sampler.percentage: 1.0
